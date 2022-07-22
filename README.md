@@ -68,5 +68,5 @@ You need to make sure that this shell tested and garantees work based on `gcc-4.
 
 
 ## Authors
-*Nathen - VR/AR Game Develpment - 
-*Zamya -
+* Nathen - VR/AR Game Develpment
+* Zamya -
