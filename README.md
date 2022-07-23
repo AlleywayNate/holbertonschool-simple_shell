@@ -68,4 +68,5 @@ You need to make sure that this shell tested and garantees work based on `gcc-4.
 
 
 ## Authors
-Issam Sebri - Machine learning enthusiast & full stack developer - [Linkedin](https://www.linkedin.com/in/issam-sebri/) - [Twitter](https://twitter.com/KoeusIss)
+* Nathen - VR/AR Game Develpment
+* Zamya -
