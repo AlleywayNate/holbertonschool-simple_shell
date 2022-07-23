@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <unistd.h>
+#include "pid.h"
+
+int main(void)
+{
+	int p_pid, p_id;
+	p_id = getpid(); /*process id*/
+	p_pid = getpid(); /*parent process id*/
+
+	printf("process ID: %d\n, p_id:;
+	printf("Parent Process ID: %d\n", p_pid);
+
+	return 0;
+}
