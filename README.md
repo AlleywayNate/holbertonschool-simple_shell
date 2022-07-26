@@ -6,12 +6,11 @@
                         | | |  _  | |___  | |_| |/ ___ \| | | |___ ___) | | |_| |  _|  
                         |_| |_| |_|_____|  \____/_/   \_\_| |_____|____/   \___/|_|    
 
-                                       ____  _   _ _____ _     _     
-                                      / ___|| | | | ____| |   | |    
-                                      \___ \| |_| |  _| | |   | |    
-                                       ___) |  _  | |___| |___| |___ 
+                                       ____  _   _ _____ _     _
+                                      / ___|| | | | ____| |   | |
+                                      \___ \| |_| |  _| | |   | |
+                                       ___) |  _  | |___| |___| |___
                                       |____/|_| |_|_____|_____|_____|
-                                                                      
 ```
 
 ## HSH: The Holberton Shell
@@ -21,19 +20,31 @@ concepts behind the shell program include process, system call, bit manipulation
 ### Genreral
 
 * Who designed and implemented the original Unix operating system
+- Dennis Ritchie and Ken Thompson
 * Who wrote the first version of the UNIX shell
+- Ken Thompson
 * Who invented the B programming language (the direct predecessor to the C programming language)
+- Ken Thompson
 * Who is Ken Thompson
+- An american pioneer of computer science
 * How does a shell work
+- it takes each command and passes it to the operating system
 * What is a pid and a ppid
-* How to manipulate the environment of the current process
+- PID stands for process ID. PPID stands for patent process ID
 * What is the difference between a function and a system call
+- a system call is a request for the kernal to access a resource while a function call is a request made by a program to preform a specific task
 * How to create processes
+- fork() in c
 * What are the three prototypes of `main`
+- int main(int argc, char * argv[] , char *envp[]
 * How does the shell use the `PATH` to find the programs
+- Shell tries each directory in the PATH, left to right, and runs the first executable program with the matching command name that it finds
 * How to execute another program with the `execve` system call
+- create executable file of Exec.c using gcc, create executable file execdemo.c using gcc 
 * How to suspend the execution of a process until one of its children terminates
+- A call to wait()
 * What is `EOF` / “end-of-file”?
+- is a condition ina computer operating system where no more data can be read from a data source
 
 ## Getting HSH
 In order to install the shell and get benefits of it's features you need to clone the current project, and compile it.
@@ -65,8 +76,11 @@ You need to make sure that this shell tested and garantees work based on `gcc-4.
 * Display help `help [BUILTIN]`
 * Display history `history`
 
+## Example
+./hsh
+ls -la
 
 
 ## Authors
-* Nathen - VR/AR Game Develpment
-* Zamya -
+* Nathen - VR/AR Game Development
+* Zamya - Full Stack Web Devolopment
